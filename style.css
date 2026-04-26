@@ -1005,34 +1005,31 @@ html{
     }
 
     /* ===== HOME ===== */
-   .home{
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center;
-    gap: 15px;
-    padding-top: 120px;
-}
-
-/* IMAGE ON TOP CENTER */
+    /* IMAGE LEFT + DOWN */
 .home-img{
     order: -1 !important;
     width: 100%;
     display: flex !important;
-    justify-content: center !important;
-    align-items: center;
-    margin: 20px 0;
+    justify-content: flex-start !important; /* 🔥 LEFT */
+    margin-top: 20px;                      /* 🔥 MOVE DOWN */
+    margin-bottom: 20px;
 }
 
-/* IMAGE PERFECT CENTER */
+/* IMAGE SIZE */
 .home-img img{
-    width: 200px;
-    display: block;
-    margin: 0 auto;
+    width: 180px;
 }
-/* TEXT */
+
+/* TEXT FULL WIDTH */
 .home-content{
     width: 100%;
+}
+
+/* SOCIAL ICONS LEFT */
+.social{
+    display: flex;
+    justify-content: flex-start;   /* 🔥 LEFT */
+    gap: 15px;
 }
     /* ===== ABOUT ===== */
     .about{
