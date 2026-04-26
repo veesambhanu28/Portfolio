@@ -1013,16 +1013,15 @@ html{
         gap: 20px;
         padding-top: 120px; /* avoid navbar overlap */
     }
+    .home-img{
+    order: -1;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
     
 
-    /* IMAGE FIRST */
-    .home-img{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        order: -1
-    }
-
+  
     .home-img img{
         width: 200px;
     }
