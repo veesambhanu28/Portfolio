@@ -1014,22 +1014,27 @@ html{
         gap: 15px;
     }
 
-    .home-img{
-        order: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      .home-img{
+        order: -1;
+
+        display: block !important;   /* override everything */
+        width: 100%;
+
+        text-align: center;          /* ✅ force center */
+
         margin-top: 40px;
         margin-bottom: 20px;
     }
 
     .home-img img{
-        width: 170px;
         display: block;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;          /* ✅ PERFECT CENTER */
+        width: 200px;
     }
 
-}
+
+
 
     /* TEXT */
     .home-content{
