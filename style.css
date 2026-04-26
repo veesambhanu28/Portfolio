@@ -973,7 +973,7 @@ html{
     /* ===== REMOVE BIG SPACE ===== */
     section{
         min-height: auto;
-        padding: 40px 5%;
+        padding: 25px 5%;
     }
 
     /* ===== HEADER ===== */
@@ -1033,7 +1033,7 @@ html{
         width: 100%;
         display: flex;
         justify-content: flex-end;  /* right side */
-        padding-right: 15px;        /* adjust if needed */
+        padding-right: 25px;        /* adjust if needed */
         margin: 0;
         position: static;
     }
