@@ -967,36 +967,37 @@ html{
 
 
 /* ===== MOBILE ===== */
-@media (max-width: 768px){
+/* ===== FINAL MOBILE PROFESSIONAL DESIGN ===== */
+@media (max-width:768px){
 
-    /* REMOVE BIG GAP */
+    /* ===== REMOVE BIG SPACE ===== */
     section{
         min-height: auto;
-        padding: 60px 5%;
+        padding: 40px 5%;
     }
 
-    /* HEADER */
+    /* ===== HEADER ===== */
     .header{
-        padding: 15px 5%;
+        padding: 12px 5%;
         flex-direction: column;
         align-items: center;
     }
 
     .logo{
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
 
-    /* NAVBAR CLEAN */
+    /* ===== NAVBAR ===== */
     .navbar{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 10px;
+        gap: 8px;
     }
 
     .navbar a{
-        font-size: 14px;
-        padding: 6px 12px;
+        font-size: 13px;
+        padding: 5px 10px;
         border: 1px solid #0ef;
         border-radius: 20px;
     }
@@ -1007,7 +1008,8 @@ html{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: 20px;
+        gap: 15px;
+        padding-bottom: 20px;
     }
 
     .home-content{
@@ -1015,44 +1017,46 @@ html{
     }
 
     .home-content h1{
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .home-content h3{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .home-content p{
-        font-size: 14px;
+        font-size: 13px;
     }
 
-    /* IMAGE (RIGHT STYLE LOOK) */
+    /* ===== IMAGE RIGHT ALIGN (IMPORTANT) ===== */
     .home-img{
         width: 100%;
         display: flex;
-        justify-content: flex-end;  /* 👈 RIGHT SIDE */
+        justify-content: flex-end;  /* right side */
+        padding-right: 15px;        /* adjust if needed */
         margin: 0;
         position: static;
     }
 
     .home-img img{
-        width: 200px;
+        width: 190px;
         max-width: 85%;
         height: auto;
-        margin-top: 10px;
     }
 
-    /* SOCIAL CENTER */
+    /* ===== SOCIAL ===== */
     .social{
         justify-content: center;
     }
 
     /* ===== ABOUT SECTION ===== */
     .about{
+        display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: 30px;
+        gap: 20px;
+        padding-top: 20px;
     }
 
     .about-img{
@@ -1062,12 +1066,35 @@ html{
     }
 
     .about-img img{
-        width: 180px;
+        width: 170px;
     }
 
     .about-text{
         width: 100%;
     }
+
+    /* ===== SKILLS ===== */
+    #skills{
+        padding-top: 20px;
+    }
+
+    .skills-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* ===== SERVICES ===== */
+    .services-container{
+        gap: 20px;
+    }
+
+    /* ===== PROJECT ===== */
+    .project-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
 
 }
 }
