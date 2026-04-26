@@ -1007,7 +1007,7 @@ html{
     /* ===== HOME ===== */
     .home{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         text-align: center;
         padding-top: 120px;
@@ -1019,14 +1019,12 @@ html{
         display: flex;
         justify-content: center;
         align-items: center;
-
-        width: 100%;
-        padding-right: 20px;
+        margin-top: 40px;
         margin-bottom: 20px;
     }
 
     .home-img img{
-        width: 180px;
+        width: 170px;
         display: block;
         margin: 0 auto;
     }
