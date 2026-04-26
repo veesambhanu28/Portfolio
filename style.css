@@ -1005,28 +1005,34 @@ html{
     }
 
     /* ===== HOME ===== */
-   .home-img{
-    order: -1 !important;
-    width: 100%;
-    display: flex !important;
-    justify-content: flex-start !important; /* 🔥 LEFT */
-    margin-top: 20px;                      /* 🔥 MOVE DOWN */
-    margin-bottom: 20px;
-   }
+    .home{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        text-align: left !important;
+        padding: 120px 20px 20px !important;
+    }
+    /* IMAGE LEFT + DOWN */
+    .home-img{
+        order: -1 !important;
+        width: 100% !important;
+        display: flex !important;
+        justify-content: flex-start !important;
+        margin-top: 30px !important;
+        margin-bottom: 20px !important;
+    }
     /* IMAGE SIZE */
     .home-img img{
-        width: 180px;
+        width: 180px !important;
     }
-    /* TEXT FULL WIDTH */
-    .home-content{
-        width: 100%;
-    }
-    /* SOCIAL ICONS LEFT */
+    /* SOCIAL LEFT */
     .social{
-        display: flex;
-        justify-content: flex-start;   /* 🔥 LEFT */
+        display: flex !important;
+        justify-content: flex-start !important;
         gap: 15px;
     }
+
+   
     /* ===== ABOUT ===== */
     .about{
         display: flex;
