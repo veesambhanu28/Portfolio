@@ -1011,7 +1011,7 @@ html{
     align-items: center !important;
     text-align: center;
     gap: 15px;
-    padding-top: 140px;
+    padding-top: 110px;
 }
 
 /* IMAGE ON TOP */
@@ -1019,9 +1019,11 @@ html{
     order: -1 !important;          /* 🔥 force image top */
     width: 100%;
     display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    margin: 20px 0 !important;
+    justify-content: flex-end !important;
+    padding-right: 20px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 /* IMAGE CENTER */
@@ -1029,6 +1031,7 @@ html{
     width: 200px;
     display: block;
     margin: 0 auto;
+    object-fit: cover
 }
 
 /* TEXT */
