@@ -979,22 +979,36 @@ html{
 }
 
 /* ===== MOBILE ===== */
-@media(max-width:900px){
+/* ===== MOBILE FIX ===== */
+@media (max-width: 768px){
 
-.home,
-.about,
-.skill-main{
-    flex-direction:column;
-    text-align:center;
-}
+    .home{
+        flex-direction: column;
+        text-align: center;
+    }
 
-.services-list{
-    flex-direction:column;
-    align-items:center;
-}
+    .home-img img{
+        width: 220px;   /* smaller image */
+        margin-top: 20px;
+    }
 
-.project-content{
-    flex-direction:column;
-}
+    .home-content{
+        max-width: 100%;
+    }
 
+    .home-content h1{
+        font-size: 28px;
+    }
+
+    .home-content h3{
+        font-size: 18px;
+    }
+
+    .home-content p{
+        font-size: 14px;
+    }
+
+    .social{
+        justify-content: center;
+    }
 }
