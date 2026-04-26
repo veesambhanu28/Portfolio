@@ -971,17 +971,17 @@ html{
 
     /* ===== GLOBAL SPACING ===== */
     section{
-        min-height: auto !important;
-        padding: 70px 6% !important;   /* comfortable spacing */
+        min-height: auto;
+        padding: 70px 6%;
     }
 
     section + section{
-        margin-top: 20px;
+        margin-top: 25px;
     }
 
     /* ===== HEADER ===== */
     .header{
-        padding: 12px 5% !important;
+        padding: 12px 5%;
         flex-direction: column;
         align-items: center;
     }
@@ -1006,15 +1006,28 @@ html{
 
     /* ===== HOME ===== */
     .home{
-        flex-direction: column !important;
-        align-items: center !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
         gap: 20px;
-        padding-top: 120px !important; /* prevent navbar overlap */
+        padding-top: 120px; /* avoid navbar overlap */
     }
 
+    /* IMAGE FIRST */
+    .home-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-img img{
+        width: 200px;
+    }
+
+    /* TEXT */
     .home-content{
-        width: 100% !important;
+        width: 100%;
     }
 
     .home-content h1{
@@ -1029,26 +1042,15 @@ html{
         font-size: 14px;
     }
 
-    /* ===== IMAGE CENTER ===== */
-    .home-img{
-        width: 100% !important;
-        display: flex !important;
-        justify-content: center !important;  /* center image */
-        margin-top: 10px !important;
-    }
-
-    .home-img img{
-        width: 190px !important;
-    }
-
-    /* ===== SOCIAL ===== */
+    /* SOCIAL */
     .social{
         justify-content: center;
     }
 
     /* ===== ABOUT ===== */
     .about{
-        flex-direction: column !important;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         text-align: center;
         gap: 25px;
@@ -1069,19 +1071,19 @@ html{
 
     /* ===== SKILLS ===== */
     .skills-container{
-        flex-direction: column !important;
+        flex-direction: column;
         gap: 30px;
     }
 
     /* ===== PROJECT ===== */
     .project-container{
-        flex-direction: column !important;
+        flex-direction: column;
         gap: 25px;
     }
 
     /* ===== CONTACT ===== */
     .contact-container{
-        flex-direction: column !important;
+        flex-direction: column;
         gap: 25px;
     }
 
@@ -1089,4 +1091,5 @@ html{
         width: 100%;
     }
 
+}
 }
