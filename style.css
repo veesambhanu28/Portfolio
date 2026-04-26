@@ -1017,12 +1017,17 @@ html{
     order: -1;
     display: flex;
     justify-content: center;
+    align-item: center;
+    width: 100%;
+    margin-top: 50px
     margin-bottom: 20px;
 }
     
 
   
     .home-img img{
+        display: block;
+        margin: 0 auto;
         width: 200px;
     }
 
