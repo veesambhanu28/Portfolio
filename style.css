@@ -1005,32 +1005,28 @@ html{
     }
 
     /* ===== HOME ===== */
-    /* IMAGE LEFT + DOWN */
-.home-img{
+   .home-img{
     order: -1 !important;
     width: 100%;
     display: flex !important;
     justify-content: flex-start !important; /* 🔥 LEFT */
     margin-top: 20px;                      /* 🔥 MOVE DOWN */
     margin-bottom: 20px;
-}
-
-/* IMAGE SIZE */
-.home-img img{
-    width: 180px;
-}
-
-/* TEXT FULL WIDTH */
-.home-content{
-    width: 100%;
-}
-
-/* SOCIAL ICONS LEFT */
-.social{
-    display: flex;
-    justify-content: flex-start;   /* 🔥 LEFT */
-    gap: 15px;
-}
+   }
+    /* IMAGE SIZE */
+    .home-img img{
+        width: 180px;
+    }
+    /* TEXT FULL WIDTH */
+    .home-content{
+        width: 100%;
+    }
+    /* SOCIAL ICONS LEFT */
+    .social{
+        display: flex;
+        justify-content: flex-start;   /* 🔥 LEFT */
+        gap: 15px;
+    }
     /* ===== ABOUT ===== */
     .about{
         display: flex;
