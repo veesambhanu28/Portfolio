@@ -1005,32 +1005,32 @@ html{
     }
 
     /* ===== HOME ===== */
-    .home{
+     .home{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;   /* 🔥 IMPORTANT */
         align-items: center;
         text-align: center;
-        padding-top: 120px;
         gap: 15px;
+        padding-top: 140px;
     }
 
-      .home-img{
-        order: -1;
-
-        display: block !important;   /* override everything */
+    /* IMAGE TOP */
+    .home-img{
+        order: -1;               /* 🔥 IMAGE FIRST */
         width: 100%;
-
-        text-align: center;          /* ✅ force center */
-
-        margin-top: 40px;
+        display: flex;
+        justify-content: center; /* center */
         margin-bottom: 20px;
     }
 
     .home-img img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;          /* ✅ PERFECT CENTER */
         width: 200px;
+        display: block;
+    }
+
+    /* TEXT BELOW */
+    .home-content{
+        width: 100%;
     }
 
 
