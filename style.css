@@ -1092,6 +1092,37 @@ html{
     .project-container{
         flex-direction: column;
         gap: 20px;
+            /* FORCE REDUCE SPACE */
+    section{
+        padding: 20px 5% !important;
+        min-height: auto !important;
+    }
+
+    /* FORCE HOME LAYOUT */
+    .home{
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        gap: 10px !important;
+    }
+
+    /* FORCE IMAGE RIGHT */
+    .home-img{
+        width: 100% !important;
+        text-align: right !important;
+        padding-right: 30px !important;
+    }
+
+    .home-img img{
+        width: 180px !important;
+    }
+
+    /* REMOVE EXTRA SPACE IN ABOUT */
+    .about{
+        flex-direction: column !important;
+        gap: 10px !important;
+        padding-top: 10px !important;
+    }
     }
 
 }
