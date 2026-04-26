@@ -1012,7 +1012,9 @@ html{
         text-align: left !important;
         padding: 120px 20px 20px !important;
     }
-    
+    .home-img{
+        margin-top: 40px
+    }
     /* IMAGE SIZE */
     .home-img img{
         width: 180px !important;
