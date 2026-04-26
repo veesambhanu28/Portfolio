@@ -1005,35 +1005,31 @@ html{
     }
 
     /* ===== HOME ===== */
-    .home{
+   .home{
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
     text-align: center;
     gap: 15px;
-    padding-top: 110px;
+    padding-top: 120px;
 }
 
-/* IMAGE ON TOP */
+/* IMAGE ON TOP CENTER */
 .home-img{
-    order: -1 !important;          /* 🔥 force image top */
+    order: -1 !important;
     width: 100%;
     display: flex !important;
-    justify-content: flex-end !important;
-    
+    justify-content: center !important;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin: 20px 0;
 }
 
-/* IMAGE CENTER */
+/* IMAGE PERFECT CENTER */
 .home-img img{
     width: 200px;
     display: block;
     margin: 0 auto;
-    object-fit: cover
 }
-
 /* TEXT */
 .home-content{
     width: 100%;
